@@ -8,6 +8,6 @@ A python program that generates programming quotes and jokes.
 - `contributor-2`: 
 - `contributor-3`:
 ## Fork urls
-- `contributor-1`: [quotes-zhuge-b]
+- `contributor-1`:
 - `contributor-2`: 
 - `contributor-3`: 
