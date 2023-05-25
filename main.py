@@ -1,4 +1,5 @@
 from functions import *
+from functions import add_quote
 
 
 def menu():
@@ -6,6 +7,7 @@ def menu():
     print("1. Random quote")
     print("2. All quotes")
     print("3. Exit")
+    print("4. Add a new quote")
 
 
 def main():
@@ -21,10 +23,15 @@ def main():
             view_quotes(quotes)
         elif choice == "3":
             print("Good bye...")
+        elif choice == "4":
+            add_quote(quotes, "quotes.txt")
             break
         else:
             print("Invalid input")
+        
 
 
 if __name__ == "__main__":
     main()
+
+    
