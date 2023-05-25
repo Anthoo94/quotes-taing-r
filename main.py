@@ -23,6 +23,8 @@ def main():
             view_quotes(quotes)
         elif choice == "3":
             print("Good bye...")
+        elif choice == "4":
+            add_quote(quotes, "quotes.txt")
             break
         else:
             print("Invalid input")
@@ -31,3 +33,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    
